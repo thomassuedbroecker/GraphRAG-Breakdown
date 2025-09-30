@@ -23,3 +23,29 @@ While [knowledge graphs are not a new concept](https://blog.google/products/sear
 The introduction of LLMs has transformed this landscape. LLMs' capabilities in NLP, reasoning, and relationship extraction now enable automated construction of knowledge graphs from unstructured text. These models can identify entities, infer relationships, and structure information in ways that previously required extensive manual labor. As a plus, this allows knowledge graphs to be dynamically updated and expanded as new information becomes available, making them more practical and scalable for real-world applications.
 
 To see this in action ourselves, and compare it to traditional vector similarity techniques, we'll take a look at Microsoft's Open Source [GraphRAG](https://microsoft.github.io/graphrag/) and how it works behind the scenes.
+
+## Set up
+
+## 1. Virtual environment
+```sh
+python3.12 -m venv .venv
+source ./.venv/bin/activate
+python3 -m pip install --upgrade pip
+```
+
+## 2. [Install Jupyter Notebook](https://jupyter.org/install#jupyter-notebook)
+```sh
+pip install notebook
+```
+
+## 3. [Start Jupyter Notebook](https://docs.jupyter.org/en/latest/running.html)
+
+```sh
+jupyter notebook d
+```
+
+## 4. Open the browser
+
+```sh
+open http://localhost:8888/tree
+```
