@@ -26,6 +26,8 @@ To see this in action ourselves, and compare it to traditional vector similarity
 
 ## Set up
 
+[Related YouTube Video](https://youtu.be/6vG_amAshTk?si=hrRCiowPxAa4xshC)
+
 ## 1. Virtual environment
 ```sh
 python3.12 -m venv .venv
