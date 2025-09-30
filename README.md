@@ -38,14 +38,29 @@ python3 -m pip install --upgrade pip
 pip install notebook
 ```
 
-## 3. [Start Jupyter Notebook](https://docs.jupyter.org/en/latest/running.html)
+## 3. Add additional libraries
 
 ```sh
-jupyter notebook d
+source ./.venv/bin/activate
+pip install langchain_text_splitters
+pip install langchain_core
+pip install tiktoken
+pip install langchain_ibm
+pip install ibm_watsonx_ai
+pip install dotenv
+pip install fastparquet
 ```
 
-## 4. Open the browser
+## 4. [Start Jupyter Notebook](https://docs.jupyter.org/en/latest/running.html)
+
+```sh
+source ./.venv/bin/activate
+jupyter notebook
+```
+
+## 5. Open the browser
 
 ```sh
 open http://localhost:8888/tree
 ```
+
